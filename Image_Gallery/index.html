@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <h1 class="logo">My Gallery</h1>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#nature">Nature</a></li>
+          <li><a href="#cars">Cars</a></li>
+          <li><a href="#animated">Animated cartoons</a></li>
+          <li><a href="#bikes">Bikes</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>🌍 Explore Stunning Images by Genre</h1>
+            <p class="subheading">Starting from <span class="highlight">Nature</span>, dive into the beauty of visuals!</p>
+            <div class="button-group">
+                <a href="#nature" class="hero-button">Start Exploring 🚀</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <div class="full-img" id="fullimg1">
+      <img src="" id="fullimg2" />
+      <span onclick="closeimg()">X</span>
+    </div>
+
+ 
+    <div class="category" id="nature">
+      <h2>Nature</h2>
+      <div class="img-gallery">
+        <img src="./assets/1.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/2.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/3.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/4.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/6.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/7.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/8.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/17.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/18.jpg" onclick="openimg(this.src)" />
+      </div>
+    </div>
+
+
+    <div class="category" id="cars">
+      <h2>Cars</h2>
+      <div class="img-gallery">
+        <img src="./assets/16.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/19.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/20.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/21.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/22.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/23.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/24.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/25.jpg" onclick="openimg(this.src)" />
+      </div>
+    </div>
+
+
+    <div class="category" id="animated">
+      <h2>Animated cartoons</h2>
+      <div class="img-gallery">
+        <img src="./assets/9.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/10.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/11.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/12.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/13.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/15.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/26.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/27.jpg" onclick="openimg(this.src)" />
+        
+      </div>
+    </div>
+
+    
+    <div class="category" id="bikes">
+      <h2>Bikes</h2>
+      <div class="img-gallery">
+        <img src="./assets/28.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/29.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/30.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/31.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/32.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/33.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/34.jpg" onclick="openimg(this.src)" />
+        <img src="./assets/35.jpg" onclick="openimg(this.src)" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
